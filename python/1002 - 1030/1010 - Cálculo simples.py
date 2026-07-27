@@ -1,0 +1,11 @@
+a, b, c = input().split()
+d, e, f = input().split()
+a = int(a)
+b = int(b)
+c = float(c)
+d = int(d)
+e = int(e)
+f = float(f)
+soma = (b * c) + (e * f)
+print(f'VALOR A PAGAR: R$ {soma:.2f}')
+
